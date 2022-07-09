@@ -1,0 +1,65 @@
+
+.text{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name{
+    font-size: 30px;
+}
+
+body{
+    /* display: flex;
+    justify-content: center; */
+    background-image: url('https://t4.ftcdn.net/jpg/02/95/09/71/240_F_295097162_PsV2ZUaN0Yb1HTsH4oM1ieN31vac608L.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+        font-size:40px; 
+        font-weight:300;  
+        letter-spacing:1px;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+    }
+    h1:after,h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #c50000;
+        border-top: 1px solid #c50000;
+        height: 5px;
+      background-color:#f8f8f8;
+    }
+
+
+.pet{
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: auto;
+    animation-name:  slidein;
+    animation-duration: 3s, 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+  @keyframes slidein {
+      from {left: 10%;}
+      to {left: 18%;}
+    }
+    
+    
+
+
+  
+  
+  
